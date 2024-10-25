@@ -2,7 +2,8 @@
 
 ## Project Workflow
 
-![alt text](Azure-Diagram.jpg)
+![Azure-Diagram](https://github.com/user-attachments/assets/2819a13f-3b8c-49b6-aba7-f64328b6e928)
+
 
 
 ## Project Overview
@@ -30,8 +31,9 @@ The purpose of this project is to validate my hands-on skills in the **Monitor a
   - **VM1-Subnet**: `10.1.1.0/24`
   - **VM2-Subnet**: `10.1.2.0/24`
 
-![alt text](<RG 2.png>)
-![alt text](<VNet 6.png>)
+
+![RG 2](https://github.com/user-attachments/assets/79cc0bfd-507e-48cf-a696-6de73c31bb2f)
+![VNet 6](https://github.com/user-attachments/assets/2f58bfde-bcb0-4933-86bb-f9f842078a53)
 
 
 #### b) Virtual Machines (VMs) and Network Security Groups (NSGs)
@@ -43,10 +45,11 @@ The purpose of this project is to validate my hands-on skills in the **Monitor a
   - No changes made to **InsightScape-VM2-NSG** as default configurations were sufficient.
 
 
-![alt text](<VM 5.png>)
-![alt text](<VM 9.png>)
-![alt text](<NSGs 3.png>)
-![alt text](<NSGs 4.png>)
+![VM 5](https://github.com/user-attachments/assets/155ea686-41d2-4d7a-89d1-24d6bc1088c5)
+nnnn![VM 9](https://github.com/user-attachments/assets/abab3cbf-d213-4e37-9086-078b827e6b6d)
+![NSGs 3](https://github.com/user-attachments/assets/faf67b1f-b043-4087-996c-17022b127943)
+![NSGs 4](https://github.com/user-attachments/assets/6a1f4d9e-e711-48c3-8592-9ca89842b069)
+
 
 
 #### c) Web Application Deployment
@@ -55,7 +58,9 @@ The purpose of this project is to validate my hands-on skills in the **Monitor a
   - Configured **Application Insights** for monitoring.
 
 
-<video controls src="2024-10-21 15-58-00-1.mp4" title="Title"></video>
+https://github.com/user-attachments/assets/881509a2-1422-4f7f-bba1-5dfa367f679e
+
+
 
 
 #### d) Blob Storage and Logic App
@@ -63,9 +68,11 @@ The purpose of this project is to validate my hands-on skills in the **Monitor a
 - Configured a **Logic App** named **InsightScape-LogicApp** to trigger when new blobs are added to the container, using access keys for authentication.
 
 
-![alt text](<Storage Account 5.png>)
-![alt text](<Storage Account 6.png>)
-![alt text](<Logic App 12.png>)
+![Storage Account 5](https://github.com/user-attachments/assets/0a29354f-97ef-42f4-9784-118e70093304)
+ll![Storage Account 6](https://github.com/user-attachments/assets/5495fb2f-ed61-42d1-8025-c8329696aca9)
+![Logic App 12](https://github.com/user-attachments/assets/783e2e3c-d1b9-4707-8e0c-7253faf62de5)
+
+
 
 #### e) Network Monitoring
 - Configured **Network Watcher** for packet capture and connection monitoring.
@@ -75,14 +82,20 @@ The purpose of this project is to validate my hands-on skills in the **Monitor a
 ![alt text](<Networking Resources 4.png>)
 ![alt text](<Networking Resources 17.png>)
 
+![Networking Resources 3](https://github.com/user-attachments/assets/352d60a7-5860-424c-bcb9-d7278e48a55d)
+![Networking Resources 4](https://github.com/user-attachments/assets/441bd30b-e3ea-4b1b-94d3-63d030b573c2)
+![Networking Resources 17](https://github.com/user-attachments/assets/a30e4e37-22a5-4ebb-b748-a427df6b69e3)
+
+
 
 #### f) Azure Backup
 - Created a **Recovery Services Vault** named **InsightScape-Vault**.
 - Configured **Azure Backup** for **InsightScape-VM1**.
 
-![alt text](<Azure Backup 4.png>)
-![alt text](<Azure Backup 10.png>)
-![alt text](<Azure Backup 13.png>)
+![Azure Backup 4](https://github.com/user-attachments/assets/d29c446e-c9fe-4a7c-8386-d157018e631c)
+![Azure Backup 10](https://github.com/user-attachments/assets/f387fc7f-01da-4bd1-9658-2cd611d91fd4)
+![Azure Backup 13](https://github.com/user-attachments/assets/c38fe098-f433-466c-a1be-c177dafb75cb)
+
 
 
 ### Step 2: Azure Monitor Integration
@@ -105,14 +118,14 @@ The purpose of this project is to validate my hands-on skills in the **Monitor a
   - Monitored **Actions Failed** metric under **Monitoring** to ensure no failed actions.
 
 
-![alt text](<Azure Monitor Integration 7.png>)
-![alt text](<Azure Monitor Integration 20.png>)
-![alt text](<Logic App Diagnostics 3.png>)
-![alt text](<Activity Logs.png>)
-![alt text](<VM-Diagnostics 2.png>)
-![alt text](<WebApp-Diagnostics 4.png>)
-![alt text](<WebApp-Resource Health  1.png>)
-![alt text](<WebApp-Resource Health  2.png>)
+![Azure Monitor Integration 7](https://github.com/user-attachments/assets/e5d91f5b-ef35-4379-9f5e-dc27379d95e3)
+![Azure Monitor Integration 20](https://github.com/user-attachments/assets/a8ffa9a2-e0fc-465d-b14f-bac0aa02d0a4)
+![Logic App Diagnostics 3](https://github.com/user-attachments/assets/43554f85-0d9e-490b-be0c-e9861166d200)
+![Activity Logs](https://github.com/user-attachments/assets/5afce28a-ca77-4bb3-a960-4197d5f74893)
+![VM-Diagnostics 2](https://github.com/user-attachments/assets/b4ebc055-a113-4261-9276-28cc42b6f9ba)
+![WebApp-Diagnostics 4](https://github.com/user-attachments/assets/35c697c9-5afa-44cf-b208-52570890d518)
+![WebApp-Resource Health  1](https://github.com/user-attachments/assets/47d0887f-c82e-4792-aeca-ac8c169fff14)
+![WebApp-Resource Health  2](https://github.com/user-attachments/assets/f75e1bc9-0f87-49c4-9da5-a807e4b4f180)
 
 
 ### Step 3: Application Insights
@@ -121,9 +134,12 @@ The purpose of this project is to validate my hands-on skills in the **Monitor a
   - **Performance**, **Roles**, **Failures**, **User Interactions**, and **Live Metrics**.
 - Added **Diagnostics Settings** for **Application Insights**.
 
-![alt text](<Application Insights 2.png>)
-![alt text](<Application Insights 3.png>) 
-![alt text](<Application Insights 4.png>)
+
+![Application Insights 2](https://github.com/user-attachments/assets/1d955391-0629-49e2-9752-9de8601dfe37)
+![Application Insights 3](https://github.com/user-attachments/assets/42fe47ab-6ea3-4712-a958-1a02575e6f86)
+![Application Insights 4](https://github.com/user-attachments/assets/87f7b160-b3a6-4b58-a10b-c4484c826bf1)
+
+
 
 
 ### Step 4: Network Monitoring
@@ -131,10 +147,12 @@ The purpose of this project is to validate my hands-on skills in the **Monitor a
 - Conducted **NSG Diagnostics** for **InsightScape-VM1** and **InsightScape-VM2**:
   - Verified inbound and outbound rules and used packet capture to assess traffic status.
 
-![alt text](<Network Monitoring 2.png>)
-![alt text](<Network Monitoring 9.png>)
-![alt text](<Network Monitoring 11.png>)
-![alt text](<Network Monitoring 12.png>)
+![Network Monitoring 2](https://github.com/user-attachments/assets/b42befd0-b0e9-4bc6-a1da-ca9e5fd2d5bb)
+![Network Monitoring 9](https://github.com/user-attachments/assets/ed8aa9fb-4b2c-4abd-8d9c-4bb3b177b386)
+![Network Monitoring 11](https://github.com/user-attachments/assets/012f78b2-8089-46f4-926d-8e8618f96c58)
+![Network Monitoring 12](https://github.com/user-attachments/assets/9d8c4392-b07b-48e5-b618-15b8987d5c12)
+
+
 
 
 ### Step 5: Security & Compliance
@@ -145,27 +163,33 @@ The purpose of this project is to validate my hands-on skills in the **Monitor a
   - Network access restriction for storage accounts using **Virtual Network Rules**.
 - Verified security alerts, ensuring no critical issues.
 
-![alt text](<Security & Compliance 1.png>)
-![alt text](<Security & Compliance 2.png>)
-![alt text](<Security & Compliance 4.png>)
-![alt text](<Security & Compliance 5.png>)
+![Security   Compliance 1](https://github.com/user-attachments/assets/62067d14-3a07-4411-8532-d55a0f4c58d9)
+![Security   Compliance 2](https://github.com/user-attachments/assets/7c65e290-e9a6-4e00-a889-ba5a91f7aebc)
+![Security   Compliance 4](https://github.com/user-attachments/assets/4aab4e45-ecf1-474a-a834-a73d70b52c4c)
+![Security   Compliance 5](https://github.com/user-attachments/assets/bc12bf22-9e14-4556-bd61-7e786b442d89)
+
+
+
 
 ### Step 6: Alerts Configuration
 - Created alerts for:
   - **Failed RDP Login Attempts** on **InsightScape-VM1**.
 
-![alt text](<Alerts Configurations 1.png>)
-![alt text](<Alerts Configurations 4.png>)
+![Alerts Configurations 1](https://github.com/user-attachments/assets/4b1e4dca-d932-4e32-a7b3-edde1c8776d8)
+![Alerts Configurations 4](https://github.com/user-attachments/assets/9e10f6f5-aa2e-4ab2-a9d7-ef6b67a17c39)
+
 
 
 ### Step 7: Backup and Disaster Recovery
 - Deleted **InsightScape-VM1** and successfully restored it using the **Recovery Services Vault**.
 - Verified the restored VM to ensure the integrity of the recovery process.
 
-![alt text](<Backup and Disaster Recovery 4.png>)
-![alt text](<Backup and Disaster Recovery 9.png>)
-![alt text](<Backup and Disaster Recovery 10.png>)
-![alt text](<Backup and Disaster Recovery 11.png>)
+![Backup and Disaster Recovery 4](https://github.com/user-attachments/assets/1f28dfb4-c470-4aec-9bd9-6e8b34a1247b)
+![Backup and Disaster Recovery 9](https://github.com/user-attachments/assets/34b5b093-0625-4ddf-9445-dacfc864a54d)
+![Backup and Disaster Recovery 10](https://github.com/user-attachments/assets/7301436f-8673-4266-9130-6430df4e505e)
+![Backup and Disaster Recovery 11](https://github.com/user-attachments/assets/199ca1ac-821a-4aba-967b-e49ebc2b7574)
+
+
 
 
 ## Conclusion
