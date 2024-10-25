@@ -46,7 +46,7 @@ The purpose of this project is to validate my hands-on skills in the **Monitor a
 
 
 ![VM 5](https://github.com/user-attachments/assets/155ea686-41d2-4d7a-89d1-24d6bc1088c5)
-nnnn![VM 9](https://github.com/user-attachments/assets/abab3cbf-d213-4e37-9086-078b827e6b6d)
+![VM 9](https://github.com/user-attachments/assets/abab3cbf-d213-4e37-9086-078b827e6b6d)
 ![NSGs 3](https://github.com/user-attachments/assets/faf67b1f-b043-4087-996c-17022b127943)
 ![NSGs 4](https://github.com/user-attachments/assets/6a1f4d9e-e711-48c3-8592-9ca89842b069)
 
@@ -69,7 +69,7 @@ https://github.com/user-attachments/assets/881509a2-1422-4f7f-bba1-5dfa367f679e
 
 
 ![Storage Account 5](https://github.com/user-attachments/assets/0a29354f-97ef-42f4-9784-118e70093304)
-ll![Storage Account 6](https://github.com/user-attachments/assets/5495fb2f-ed61-42d1-8025-c8329696aca9)
+![Storage Account 6](https://github.com/user-attachments/assets/5495fb2f-ed61-42d1-8025-c8329696aca9)
 ![Logic App 12](https://github.com/user-attachments/assets/783e2e3c-d1b9-4707-8e0c-7253faf62de5)
 
 
