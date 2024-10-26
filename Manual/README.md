@@ -1,0 +1,3 @@
+# Project Manual
+
+The **InsightScape Project Manual** offers a comprehensive guide for deploying an integrated monitoring and maintenance framework using essential Azure services. This manual includes step-by-step instructions for setting up Azure Monitor for real-time performance insights, Log Analytics for log data analysis, Application Insights for application monitoring, Network Watcher for network diagnostics, Security Center to strengthen security and compliance, and Azure Backup for reliable data protection. With detailed configurations, testing procedures, and best practices, this manual ensures thorough visibility, enhanced security, and optimized performance across Azure resources.
