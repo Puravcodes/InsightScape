@@ -3,7 +3,7 @@
 ## Project Workflow
 
 <div align="center" > 
-![Azure-Diagram](https://github.com/user-attachments/assets/bd9c01ff-1e70-425c-b2c6-bf1d954222bc)
+   <img src="https://github.com/user-attachments/assets/bd9c01ff-1e70-425c-b2c6-bf1d954222bc" alt-text="Azure-Diagram">
 </div>
 
 
